@@ -1,0 +1,3 @@
+alias ag="sudo apt-get update && sudo apt-get upgrade -y"
+alias ai="sudo apt-get install"
+alias as="apt-cache search"
