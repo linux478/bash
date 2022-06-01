@@ -1,0 +1,2 @@
+alias pandoc="C:\Users\mphillips\AppData\Local\Pandoc\pandoc.exe"
+alias pandoc="/c/Users/mphillips/AppData/Local/Pandoc/pandoc.exe"
