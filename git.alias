@@ -1,6 +1,7 @@
 alias ga="git add"
 alias gb="git branch"
 alias gc="git commit"
+alias gcam="git commit -am"
 alias gcm="git commit -m"
 alias gcob="git checkout -b"
 alias gl="git log --oneline"
