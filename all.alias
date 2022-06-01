@@ -1,0 +1,5 @@
+for i in $(ls *.alias);do
+  echo -n "Sourcing $i ... ";
+  source $i;
+  echo " Done";
+done
