@@ -1,7 +1,8 @@
-source export.variables
-find ~/.config/bash -name "*.alias"  | 
-  while read file; do 
-    echo -n "Sourcing $file ... "
-    . $file
-    echo "Done"
-  done
+CONFIG_DIR=${HOME}/.config/bash
+
+source ${CONFIG_DIR}/export.variables
+for file in $(ls ${CONFIG_DIR}/*.alias); do
+  echo -n "Sourcing ${file}"
+  source ${file}
+  echo " Done"
+done
