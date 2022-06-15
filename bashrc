@@ -1,4 +1,7 @@
-cd ${HOME}/.config/bash
 source export.variables
-source _all.alias
-cd
+find ~/.config/bash -name "*.alias"  | 
+  while read file; do 
+    echo -n "Sourcing $file"
+    source $file
+    echo ""
+  done
